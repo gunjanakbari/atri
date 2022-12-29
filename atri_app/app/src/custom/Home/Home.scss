@@ -1,0 +1,90 @@
+.p-Home.Brand,
+.p-Home.Brand_Last,
+.p-Home.Call,
+.p-Home.Brand_One {
+  //   color: transparent;
+  background-image: linear-gradient(
+    108deg,
+    #b16cea 8%,
+    #ff5e69 40%,
+    #ff8a56 77%,
+    #ffa84b 91%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.p-Home.Projects,
+.p-Home.Product,
+.p-Home.Services,
+.p-Home.Name_One,
+.p-Home.Name_Two,
+.p-Home.Name_Three,
+.p-Home.Testimonial,
+.p-Home.Faq,
+.p-Home.Blogs {
+  //   color: transparent;
+  background-image: linear-gradient(
+    108deg,
+    #b16cea 8%,
+    #ff5e69 40%,
+    #ff8a56 77%,
+    #ffa84b 91%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.p-Home.Nav_Div {
+  overflow-x: hidden;
+}
+.p-Home.Sticky_Logo {
+  position: sticky;
+  top: 0;
+  position: -webkit-sticky;
+}
+
+.p-Home.Sticky_Div {
+  position: sticky;
+  top: 50px;
+  position: -webkit-sticky;
+}
+
+.p-Home.Book_a_call,
+.p-Home.ProjectsBack {
+  background-image: linear-gradient(
+    108deg,
+    #b16cea 8%,
+    #ff5e69 40%,
+    #ff8a56 77%,
+    #ffa84b 91%
+  );
+  // background-clip: text;
+}
+
+.p-Home.BookACall:hover,
+.p-Home.ViewProjects:hover {
+  transform: translate3d(8px, 8px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.p-Home.Flex291,
+.p-Home.Flex304 {
+  background: linear-gradient(180deg, #ffffff 33.5%, #000000 33.5%);
+}
+
+.p-Home.Flex302 {
+  background: linear-gradient(180deg, #ffffff 68%, #000000 68%);
+}
+
+.p-Home.Nav_Div {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
